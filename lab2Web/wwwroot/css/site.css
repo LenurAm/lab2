@@ -1,3 +1,14 @@
+a.navbar {
+    white-space:normal;
+    text-align:center;
+    word-break: break-all;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
 html {
   font-size: 14px;
 }
@@ -14,5 +25,20 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 220px;
 }
+/*body {
+    position: relative;
+}
+
+main {
+    margin-bottom: 220px;
+}
+
+.footer-bs {
+    position: absolute;
+    width: 100%;
+    min-height: 320px;
+    bottom: 40px;
+    left: 0;
+}*/
