@@ -1,6 +1,7 @@
 ﻿using lab2Web.Data;
 using lab2Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 //using Microsoft.Office.Server.UserProfiles;
 
 namespace lab2Web.Controllers
@@ -15,6 +16,7 @@ namespace lab2Web.Controllers
             _db = db;
         }
 
+        //[Authorize]
         public IActionResult Index()
         {
             IEnumerable<User> objUserList = _db.Users;
